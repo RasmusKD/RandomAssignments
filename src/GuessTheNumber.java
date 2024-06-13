@@ -12,7 +12,7 @@ public class GuessTheNumber {
             guess = scanner.nextInt();
             guessCount += 1;
             // System.out.println(numberToGuess); debug
-            
+
             if (guess < numberToGuess) {
                 System.out.println("For lavt!");
             } else if (guess > numberToGuess) {
